@@ -1,0 +1,146 @@
+author            = "O. 'Maple' Syrup";
+respawnOnStart = -1;
+
+ace_respawn_removeDeadBodiesDisconnected = 1;
+
+class ACEX_Fortify_Presets {
+    class 31stFortifyPreset {
+        displayName = "31st Fortify Woodland";
+        objects[] = {
+             {"Land_TCP_FOB_Barrier_06_Olive", 15, "Barriers"},
+            {"Land_TCP_FOB_Barrier_05_Olive", 15, "Barriers"},
+            {"Land_TCP_FOB_barrier_04_Olive", 15, "Barriers"},
+
+            {"Land_Razorwire_F", 5, "Other"}
+
+        };
+    };
+};
+
+class CfgSounds
+{
+    class gate_is_opening {
+        name     = "gate_is_opening";
+        sound[]  = { "sounds\gate_is_opening.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class fury_nuke {
+        name     = "fury_nuke";
+        sound[]  = { "sounds\fury_nuke.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class generator_sound {
+        name     = "generator_sound";
+        sound[]  = { "sounds\generator_sound.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class generator_startup_sfx {
+        name     = "generator_startup_sfx";
+        sound[]  = { "sounds\generator_startup_sfx.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class generator_startup_voice {
+        name     = "generator_startup_voice";
+        sound[]  = { "sounds\generator_startup_voice.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class device_aligned {
+        name     = "device_aligned";
+        sound[]  = { "sounds\device_aligned.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class data_transmission {
+        name     = "data_transmission";
+        sound[]  = { "sounds\data_transmission.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class mac_firing {
+        name     = "mac_firing";
+        sound[]  = { "sounds\mac_firing.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class radio_1 {
+        name     = "radio_1";
+        sound[]  = { "sounds\radio_1.ogg", 10, 1 };
+        titles[] = {};
+    };
+    class broadcast_urf {
+        name     = "broadcast_urf";
+        sound[]  = { "sounds\broadcast_urf.ogg", 10, 1 };
+        titles[] = {};
+    };
+};
+
+class CfgFunctions {
+    class MyMission {
+        class Objective {
+            class repair {
+                file = "scripts\obj\repair.sqf";
+            };
+            class repair_progress {
+                file = "scripts\obj\repair_progress.sqf";
+            };
+            class transmit {
+                file = "scripts\obj\transmit.sqf";
+            };
+            class transmit_progress {
+                file = "scripts\obj\transmit_progress.sqf";
+            };
+        };
+        class Effect {
+            class cloakOn {
+                file = "scripts\effect\cloakOn.sqf";
+            }
+            class cloakOff {
+                file = "scripts\effect\cloakOff.sqf";
+            }
+        }
+    };
+};
+
+// ── Base class includes (needed for Rsc* inheritance) ──────────────────────
+#include "\a3\ui_f\hpp\defineResinclDesign.inc"
+#include "\a3\ui_f\hpp\defineDIKCodes.inc"
+#include "\a3\ui_f\hpp\defineCommonGrids.inc"
+
+import RscObject;
+import RscText;
+import RscFrame;
+import RscLine;
+import RscProgress;
+import RscPicture;
+import RscPictureKeepAspect;
+import RscVideo;
+import RscHTML;
+import RscButton;
+import RscShortcutButton;
+import RscEdit;
+import RscCombo;
+import RscListBox;
+import RscListNBox;
+import RscXListBox;
+import RscTree;
+import RscSlider;
+import RscXSliderH;
+import RscActiveText;
+import RscActivePicture;
+import RscActivePictureKeepAspect;
+import RscStructuredText;
+import RscToolbox;
+import RscControlsGroup;
+import RscControlsGroupNoScrollbars;
+import RscControlsGroupNoHScrollbars;
+import RscControlsGroupNoVScrollbars;
+import RscButtonTextOnly;
+import RscButtonMenu;
+import RscButtonMenuOK;
+import RscButtonMenuCancel;
+import RscButtonMenuSteam;
+import RscMapControl;
+import RscMapControlEmpty;
+import RscCheckBox;
+
+#include "UI\BombInput.hpp"
+#include "UI\Datapad.hpp"
+#include "UI\GateInput.hpp"
+#include "UI\DeviceDriver.hpp"
