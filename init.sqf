@@ -655,4 +655,5 @@ gladius setPosATL (getPosATL gladius_start);
 [frigate] call ScifiSupportPLUS_fnc_SpawnShipLightsAndSound;
 [gladius] call ScifiSupportPLUS_fnc_SpawnShipLightsAndSound;
 
-[-1, 2, frigate, 3000] call MyMission_fnc_earthquake_continuous;
+[-1, 3, frigate, 3000] call MyMission_fnc_earthquake_continuous;
+[-1, 3, gladius, 3000] call MyMission_fnc_earthquake_continuous;
