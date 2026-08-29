@@ -87,18 +87,9 @@ class CfgFunctions {
                 file = "scripts\obj\transmit_progress.sqf";
             };
         };
-        class Effect {
-            class cloakOn {
-                file = "scripts\effect\cloakOn.sqf";
-            }
-            class cloakOff {
-                file = "scripts\effect\cloakOff.sqf";
-            }
-        }
     };
 };
 
-// ── Base class includes (needed for Rsc* inheritance) ──────────────────────
 #include "\a3\ui_f\hpp\defineResinclDesign.inc"
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"
@@ -140,7 +131,4 @@ import RscMapControl;
 import RscMapControlEmpty;
 import RscCheckBox;
 
-#include "UI\BombInput.hpp"
 #include "UI\Datapad.hpp"
-#include "UI\GateInput.hpp"
-#include "UI\DeviceDriver.hpp"

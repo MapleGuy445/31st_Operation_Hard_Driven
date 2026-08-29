@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=9494;
+		nextID=9495;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1216;
+		nextID=1217;
 	};
 	class Camera
 	{
-		pos[]={3239.1372,378.06253,3127.0281};
-		dir[]={0.21613619,-0.3009477,-0.92883098};
-		up[]={0.068208002,0.95364034,-0.29311794};
-		aside[]={-0.97398245,4.7613867e-08,-0.22664346};
+		pos[]={3240.1411,448.85178,3045.8657};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -91,9 +91,7 @@ addons[]=
 	"A3_Structures_F_Items_Electronics",
 	"A3_Structures_F_Enoch_VR_Helpers",
 	"CUP_Misc_e_Config",
-	"TCP_Props_Military_Equipment_Datapad_01",
 	"A3_Modules_F_Multiplayer",
-	"TCP_Weapons_AmmoBoxes_AmmoCrate_01",
 	"DMNS_Vehicles_SOEIV",
 	"Bro_Structures",
 	"FNDRY_M12B",
@@ -159,6 +157,7 @@ addons[]=
 	"TCP_Props_Civilian_Equipment_FiltrationTower_01",
 	"TCP_Props_Military_Equipment_Crate_02",
 	"A3_expEden",
+	"TCP_Props_Military_Equipment_Datapad_01",
 	"TCP_Props_Items_Electronics_DataModule_01",
 	"A3_Props_F_Globe_Military_Equipment",
 	"OPTRE_Ins_Units_IND",
@@ -73192,7 +73191,7 @@ class Mission
 			state=1;
 			class Entities
 			{
-				items=69;
+				items=66;
 				class Item0
 				{
 					dataType="Layer";
@@ -188307,7 +188306,7 @@ class Mission
 									{
 									};
 									id=3061;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 								};
 								class Item10
 								{
@@ -189324,7 +189323,7 @@ class Mission
 									{
 									};
 									id=3066;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 								};
 								class Item11
 								{
@@ -190459,7 +190458,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3072;
-									atlOffset=-181.5;
+									atlOffset=0.048828125;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -191654,7 +191653,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3085;
-									atlOffset=-181.5;
+									atlOffset=0.049072266;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -192849,7 +192848,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3098;
-									atlOffset=-181.5;
+									atlOffset=0.049072266;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -193408,7 +193407,7 @@ class Mission
 									{
 									};
 									id=3111;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 								};
 								class Item15
 								{
@@ -194143,7 +194142,7 @@ class Mission
 									{
 									};
 									id=3116;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 								};
 								class Item16
 								{
@@ -194768,7 +194767,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3123;
-									atlOffset=-181.5;
+									atlOffset=0.049316406;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -195453,7 +195452,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3129;
-									atlOffset=-181.5;
+									atlOffset=0.049316406;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -196138,7 +196137,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3135;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -196823,7 +196822,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3141;
-									atlOffset=-181.5;
+									atlOffset=0.049194336;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -197200,7 +197199,7 @@ class Mission
 									{
 									};
 									id=3147;
-									atlOffset=-181.5;
+									atlOffset=0.00024414062;
 								};
 								class Item21
 								{
@@ -199050,7 +199049,7 @@ class Mission
 										garbageCollect=1;
 									};
 									id=3151;
-									atlOffset=-181.5;
+									atlOffset=0.00036621094;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -199114,7 +199113,7 @@ class Mission
 								};
 							};
 							id=1326;
-							atlOffset=-181.4024;
+							atlOffset=934.40491;
 						};
 						class Item1
 						{
@@ -200640,7 +200639,7 @@ class Mission
 						};
 					};
 					id=1325;
-					atlOffset=5.3690796;
+					atlOffset=215.70828;
 				};
 				class Item1
 				{
@@ -200840,243 +200839,6 @@ class Mission
 				};
 				class Item7
 				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3243.2329,376.20859,3121.3428};
-						angles[]={0,2.635448,-0};
-					};
-					side="Empty";
-					flags=5;
-					class Attributes
-					{
-						init="[ " \n " this, " \n " ""Open Data Pad"", " \n " ""\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_hack_ca.paa"", " \n " ""\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_hack_ca.paa"", " \n " ""true"", " \n " ""true"", " \n " {}, " \n " {}, " \n " {execVM ""intelFuryCode.sqf"";}, " \n " {}, " \n " [], " \n " 1, " \n " 1000, " \n " false, " \n " true " \n "] call BIS_fnc_holdActionAdd;";
-					};
-					id=1616;
-					type="Land_TCP_Datapad_01_Black";
-					atlOffset=0.00039672852;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_HoldAction";
-							expression="            _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow', '_removeAfterUse'];            if (!is3DEN && (_name != '')) then            {                if _removeAfterUse then                {                    _codeCompletion = format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion];                };                [                    _this,                    _name,                    _iconIdle,                    _iconProgress,                    _conditionShow,                    _conditionProgress,                    compile _codeStart,                    compile _codeProgress,                    compile _codeCompletion,                    compile _codeInterrupt,                    nil,                    _duration,                    _priority,                    _removeAfterUse,                    _showUnconscious,                    _showWindow                ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];            };";
-							class Value
-							{
-								class data
-								{
-									singleType="ARRAY";
-									class value
-									{
-										items=14;
-										class Item0
-										{
-											class data
-											{
-												singleType="STRING";
-												value="";
-											};
-										};
-										class Item1
-										{
-											class data
-											{
-												singleType="STRING";
-												value="\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_hack_ca.paa";
-											};
-										};
-										class Item2
-										{
-											class data
-											{
-												singleType="STRING";
-												value="\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_hack_ca.paa";
-											};
-										};
-										class Item3
-										{
-											class data
-											{
-												singleType="STRING";
-												value="true";
-											};
-										};
-										class Item4
-										{
-											class data
-											{
-												singleType="STRING";
-												value="true";
-											};
-										};
-										class Item5
-										{
-											class data
-											{
-												singleType="STRING";
-												value="";
-											};
-										};
-										class Item6
-										{
-											class data
-											{
-												singleType="STRING";
-												value="";
-											};
-										};
-										class Item7
-										{
-											class data
-											{
-												singleType="STRING";
-												value="";
-											};
-										};
-										class Item8
-										{
-											class data
-											{
-												singleType="STRING";
-												value="";
-											};
-										};
-										class Item9
-										{
-											class data
-											{
-												singleType="SCALAR";
-												value=1;
-											};
-										};
-										class Item10
-										{
-											class data
-											{
-												singleType="SCALAR";
-												value=1000;
-											};
-										};
-										class Item11
-										{
-											class data
-											{
-												singleType="BOOL";
-												value=0;
-											};
-										};
-										class Item12
-										{
-											class data
-											{
-												singleType="BOOL";
-												value=1;
-											};
-										};
-										class Item13
-										{
-											class data
-											{
-												singleType="BOOL";
-												value=0;
-											};
-										};
-									};
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ObjectCollision";
-							expression="private _actualValue = if (typeName _value == 'ARRAY') then {_value # 0} else {_value}; if (typeName _actualValue == 'SCALAR') then {_actualValue = (_actualValue == 1)}; [_this, _actualValue] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ENH_featureTypeNew";
-							expression="[_this, _value] remoteExec ['setFeatureType', 0, _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3243.1465,375.78165,3121.387};
-						angles[]={0,6.0912004,-0};
-					};
-					side="Empty";
-					flags=1;
-					class Attributes
-					{
-						disableSimulation=1;
-					};
-					id=1617;
-					type="Land_CampingTable_F";
-					atlOffset=6.3078918;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ObjectCollision";
-							expression="private _actualValue = if (typeName _value == 'ARRAY') then {_value # 0} else {_value}; if (typeName _actualValue == 'SCALAR') then {_actualValue = (_actualValue == 1)}; [_this, _actualValue] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ENH_featureTypeNew";
-							expression="[_this, _value] remoteExec ['setFeatureType', 0, _this]";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item9
-				{
 					dataType="Logic";
 					class PositionInfo
 					{
@@ -201156,7 +200918,7 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item10
+				class Item8
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -201237,67 +200999,7 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item11
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3244.8865,375.38437,3122.811};
-						angles[]={0,4.5378571,-0};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=1620;
-					type="Land_TCP_AmmoCrate_01_Woodland_Empty";
-					atlOffset=0.0018005371;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ObjectCollision";
-							expression="private _actualValue = if (typeName _value == 'ARRAY') then {_value # 0} else {_value}; if (typeName _actualValue == 'SCALAR') then {_actualValue = (_actualValue == 1)}; [_this, _actualValue] remoteExecCall ['setPhysicsCollisionFlag', 0, _this];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="attachMarker";
-							expression="if (_value isNotEqualTo '') then {[_this, _value] spawn expEden_fnc_markerAttachToObject}";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ammoBox";
-							expression="[_this,_value] call bis_fnc_initAmmoBox;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="[[[[""hgun_esd_01_antenna_02_F""],[20]],[[],[]],[[],[]],[[""OPTRE_Fury_Backpack_Nuke""],[20]]],false]";
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item12
+				class Item9
 				{
 					dataType="Layer";
 					name="ODST Drop Bay_1";
@@ -203304,7 +203006,7 @@ class Mission
 					id=1621;
 					atlOffset=21.427063;
 				};
-				class Item13
+				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203352,7 +203054,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item14
+				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203401,7 +203103,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item15
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203418,7 +203120,7 @@ class Mission
 					type="land_optre_bootcamp_barracks";
 					atlOffset=0.061889648;
 				};
-				class Item16
+				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203435,7 +203137,7 @@ class Mission
 					type="land_optre_bootcamp_barracks";
 					atlOffset=0.093078613;
 				};
-				class Item17
+				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203453,7 +203155,7 @@ class Mission
 					id=2542;
 					type="land_optre_bootcamp_filler_20";
 				};
-				class Item18
+				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203471,7 +203173,7 @@ class Mission
 					id=2546;
 					type="land_optre_bootcamp_filler_20";
 				};
-				class Item19
+				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203489,7 +203191,7 @@ class Mission
 					id=2540;
 					type="land_optre_bootcamp_filler_50";
 				};
-				class Item20
+				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203506,7 +203208,7 @@ class Mission
 					type="Land_Bro_Grasscutter_50";
 					atlOffset=0.25317383;
 				};
-				class Item21
+				class Item18
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203523,7 +203225,7 @@ class Mission
 					type="Land_Bro_Grasscutter_50";
 					atlOffset=0.14129639;
 				};
-				class Item22
+				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203540,7 +203242,7 @@ class Mission
 					type="land_optre_bootcamp_drone_1";
 					atlOffset=0.014190674;
 				};
-				class Item23
+				class Item20
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203557,7 +203259,7 @@ class Mission
 					type="land_optre_bootcamp_drone_2";
 					atlOffset=0.009979248;
 				};
-				class Item24
+				class Item21
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203573,7 +203275,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15023804;
 				};
-				class Item25
+				class Item22
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203589,7 +203291,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15020752;
 				};
-				class Item26
+				class Item23
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203605,7 +203307,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15011597;
 				};
-				class Item27
+				class Item24
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203621,7 +203323,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15020752;
 				};
-				class Item28
+				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203637,7 +203339,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.00012207031;
 				};
-				class Item29
+				class Item26
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203653,7 +203355,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.00012207031;
 				};
-				class Item30
+				class Item27
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203669,7 +203371,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.14996338;
 				};
-				class Item31
+				class Item28
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203685,7 +203387,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15011597;
 				};
-				class Item32
+				class Item29
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203701,7 +203403,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15005493;
 				};
-				class Item33
+				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203717,7 +203419,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15002441;
 				};
-				class Item34
+				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203733,7 +203435,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15020752;
 				};
-				class Item35
+				class Item32
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203749,7 +203451,7 @@ class Mission
 					type="ClutterCutter_EP1";
 					atlOffset=0.15011597;
 				};
-				class Item36
+				class Item33
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203767,7 +203469,7 @@ class Mission
 					type="FNDRY_M12B_LRV";
 					atlOffset=0.019439697;
 				};
-				class Item37
+				class Item34
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203803,7 +203505,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item38
+				class Item35
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203839,7 +203541,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item39
+				class Item36
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203875,7 +203577,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item40
+				class Item37
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203911,7 +203613,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item41
+				class Item38
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203947,7 +203649,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item42
+				class Item39
 				{
 					dataType="Object";
 					class PositionInfo
@@ -203983,7 +203685,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item43
+				class Item40
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204019,7 +203721,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item44
+				class Item41
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204055,7 +203757,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item45
+				class Item42
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204091,7 +203793,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item46
+				class Item43
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204127,7 +203829,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item47
+				class Item44
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204163,7 +203865,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item48
+				class Item45
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204199,7 +203901,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item49
+				class Item46
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204235,7 +203937,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item50
+				class Item47
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204271,7 +203973,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item51
+				class Item48
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204307,7 +204009,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item52
+				class Item49
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204343,7 +204045,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item53
+				class Item50
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204379,7 +204081,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item54
+				class Item51
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204415,7 +204117,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item55
+				class Item52
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204451,7 +204153,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item56
+				class Item53
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204487,7 +204189,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item57
+				class Item54
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204523,7 +204225,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item58
+				class Item55
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204559,7 +204261,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item59
+				class Item56
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204595,7 +204297,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item60
+				class Item57
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204631,7 +204333,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item61
+				class Item58
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204667,7 +204369,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item62
+				class Item59
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204703,7 +204405,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item63
+				class Item60
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204739,7 +204441,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item64
+				class Item61
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204775,7 +204477,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item65
+				class Item62
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204811,7 +204513,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item66
+				class Item63
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204847,7 +204549,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item67
+				class Item64
 				{
 					dataType="Object";
 					class PositionInfo
@@ -204883,7 +204585,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item68
+				class Item65
 				{
 					dataType="Object";
 					class PositionInfo
@@ -259191,17 +258893,29 @@ class Mission
 		};
 		class Item204
 		{
-			dataType="Trigger";
-			position[]={3240.1411,375.38702,3120.9221};
-			class Attributes
+			dataType="Layer";
+			name="LOGIC";
+			state=1;
+			class Entities
 			{
-				condition="gladius_take_off";
-				onActivation="[gladius, gladius_start, gladius_end, 30] call ScifiSupportPLUS_fnc_MoveAlongLine;" \n "" \n "[-1, 2, gladius, 3000] call MyMission_fnc_earthquake_continuous;";
-				sizeA=0;
-				sizeB=0;
+				items=1;
+				class Item0
+				{
+					dataType="Trigger";
+					position[]={3240.1411,375.38702,3120.9221};
+					class Attributes
+					{
+						condition="gladius_take_off";
+						onActivation="[gladius, gladius_start, gladius_end, 30] call ScifiSupportPLUS_fnc_MoveAlongLine;" \n "" \n "[-1, 2, gladius, 3000] call MyMission_fnc_earthquake_continuous;";
+						sizeA=0;
+						sizeB=0;
+					};
+					id=9493;
+					type="EmptyDetector";
+					atlOffset=0.00012207031;
+				};
 			};
-			id=9493;
-			type="EmptyDetector";
+			id=9494;
 			atlOffset=0.00012207031;
 		};
 	};
